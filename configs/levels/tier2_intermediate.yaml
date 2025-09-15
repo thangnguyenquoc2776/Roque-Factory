@@ -1,0 +1,126 @@
+tier_id: "tier2"
+levels:
+  - level_id: "L6"
+    name: "Level 6 — Straight Harder"
+    map: "straight"
+    time: 115
+    goal: 30
+    spawn:
+      interval: 1.4
+      robots:
+        - type: OK
+          weight: 1.0
+          dwell_time_station: 0.32
+          fail_prob: 0.09
+          variants:
+            - {
+                type: BAD,
+                weight: 1.0,
+                params:
+                  {
+                    fuse_time: 4.5,
+                    prod_penalty: 2,
+                    hp_penalty_on_explode: 1,
+                    hp_penalty_on_goal: 2,
+                  },
+              }
+
+  - level_id: "L7"
+    name: "Level 7 — U Path Harder"
+    map: "u_path"
+    time: 110
+    goal: 34
+    spawn:
+      interval: 1.3
+      robots:
+        - type: OK
+          weight: 1.0
+          dwell_time_station: 0.32
+          fail_prob: 0.10
+          variants:
+            - {
+                type: BAD,
+                weight: 1.0,
+                params:
+                  {
+                    fuse_time: 4.2,
+                    prod_penalty: 2,
+                    hp_penalty_on_explode: 1,
+                    hp_penalty_on_goal: 2,
+                  },
+              }
+
+  - level_id: "L8"
+    name: "Level 8 — S Path Harder"
+    map: "s_path"
+    time: 105
+    goal: 38
+    spawn:
+      interval: 1.2
+      robots:
+        - type: OK
+          weight: 1.0
+          dwell_time_station: 0.30
+          fail_prob: 0.11
+          variants:
+            - {
+                type: BAD,
+                weight: 1.0,
+                params:
+                  {
+                    fuse_time: 4.0,
+                    prod_penalty: 3,
+                    hp_penalty_on_explode: 2,
+                    hp_penalty_on_goal: 3,
+                  },
+              }
+
+  - level_id: "L9"
+    name: "Level 9 — Z Path Harder"
+    map: "z_path"
+    time: 100
+    goal: 42
+    spawn:
+      interval: 1.1
+      robots:
+        - type: OK
+          weight: 1.0
+          dwell_time_station: 0.30
+          fail_prob: 0.12
+          variants:
+            - {
+                type: BAD,
+                weight: 1.0,
+                params:
+                  {
+                    fuse_time: 3.8,
+                    prod_penalty: 3,
+                    hp_penalty_on_explode: 2,
+                    hp_penalty_on_goal: 3,
+                  },
+              }
+
+  - level_id: "L10"
+    name: "Level 10 — Double U Hardest"
+    map: "double_u"
+    time: 95
+    goal: 48
+    spawn:
+      interval: 1.0
+      robots:
+        - type: OK
+          weight: 1.0
+          dwell_time_station: 0.28
+          fail_prob: 0.12
+          variants:
+            - {
+                type: BAD,
+                weight: 1.0,
+                params:
+                  {
+                    fuse_time: 3.5,
+                    prod_penalty: 3,
+                    hp_penalty_on_explode: 2,
+                    hp_penalty_on_goal: 3,
+                  },
+              }

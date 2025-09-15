@@ -1,0 +1,12 @@
+map_id: "double_u"
+name: "Double U"
+paths:
+  - points:
+      - [0.08, 0.55]
+      - [0.80, 0.55]
+      - [0.80, 0.38]
+      - [0.20, 0.38]
+      - [0.20, 0.62]
+      - [0.88, 0.62]
+stations:
+  preset: "double_u_default"

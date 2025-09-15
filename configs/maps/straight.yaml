@@ -1,0 +1,8 @@
+map_id: "straight"
+name: "Straight Line"
+paths:
+  - points:
+      - [0.08, 0.50]
+      - [0.92, 0.50]
+stations:
+  preset: "straight_default"

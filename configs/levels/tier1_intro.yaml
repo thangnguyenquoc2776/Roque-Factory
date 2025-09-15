@@ -1,0 +1,126 @@
+tier_id: "tier1"
+levels:
+  - level_id: "L1"
+    name: "Level 1 — Straight"
+    map: "straight"
+    time: 140
+    goal: 12
+    spawn:
+      interval: 2.0
+      robots:
+        - type: OK
+          weight: 1.0
+          dwell_time_station: 0.35
+          fail_prob: 0.05
+          variants:
+            - {
+                type: BAD,
+                weight: 1.0,
+                params:
+                  {
+                    fuse_time: 6.0,
+                    prod_penalty: 1,
+                    hp_penalty_on_explode: 1,
+                    hp_penalty_on_goal: 2,
+                  },
+              }
+
+  - level_id: "L2"
+    name: "Level 2 — U Path"
+    map: "u_path"
+    time: 135
+    goal: 16
+    spawn:
+      interval: 1.9
+      robots:
+        - type: OK
+          weight: 1.0
+          dwell_time_station: 0.35
+          fail_prob: 0.06
+          variants:
+            - {
+                type: BAD,
+                weight: 1.0,
+                params:
+                  {
+                    fuse_time: 6.0,
+                    prod_penalty: 1,
+                    hp_penalty_on_explode: 1,
+                    hp_penalty_on_goal: 2,
+                  },
+              }
+
+  - level_id: "L3"
+    name: "Level 3 — S Path"
+    map: "s_path"
+    time: 130
+    goal: 20
+    spawn:
+      interval: 1.8
+      robots:
+        - type: OK
+          weight: 1.0
+          dwell_time_station: 0.35
+          fail_prob: 0.07
+          variants:
+            - {
+                type: BAD,
+                weight: 1.0,
+                params:
+                  {
+                    fuse_time: 5.5,
+                    prod_penalty: 1,
+                    hp_penalty_on_explode: 1,
+                    hp_penalty_on_goal: 2,
+                  },
+              }
+
+  - level_id: "L4"
+    name: "Level 4 — Z Path"
+    map: "z_path"
+    time: 125
+    goal: 24
+    spawn:
+      interval: 1.7
+      robots:
+        - type: OK
+          weight: 1.0
+          dwell_time_station: 0.35
+          fail_prob: 0.08
+          variants:
+            - {
+                type: BAD,
+                weight: 1.0,
+                params:
+                  {
+                    fuse_time: 5.0,
+                    prod_penalty: 2,
+                    hp_penalty_on_explode: 1,
+                    hp_penalty_on_goal: 2,
+                  },
+              }
+
+  - level_id: "L5"
+    name: "Level 5 — Double U"
+    map: "double_u"
+    time: 120
+    goal: 28
+    spawn:
+      interval: 1.6
+      robots:
+        - type: OK
+          weight: 1.0
+          dwell_time_station: 0.35
+          fail_prob: 0.08
+          variants:
+            - {
+                type: BAD,
+                weight: 1.0,
+                params:
+                  {
+                    fuse_time: 5.0,
+                    prod_penalty: 2,
+                    hp_penalty_on_explode: 1,
+                    hp_penalty_on_goal: 2,
+                  },
+              }

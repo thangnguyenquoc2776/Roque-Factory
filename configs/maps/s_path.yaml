@@ -1,0 +1,11 @@
+map_id: "s_path"
+name: "S Path"
+paths:
+  - points:
+      - [0.08, 0.60]
+      - [0.40, 0.60]
+      - [0.55, 0.45]
+      - [0.70, 0.60]
+      - [0.92, 0.60]
+stations:
+  preset: "s_default"

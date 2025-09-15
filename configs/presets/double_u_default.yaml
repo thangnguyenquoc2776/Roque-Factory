@@ -1,0 +1,9 @@
+# Double U Path
+preset_id: "double_u_default"
+points:
+  - [0.20, 0.55]   # trên đoạn ngang đầu
+  - [0.80, 0.55]   # cuối đoạn ngang đầu
+  - [0.80, 0.38]   # trên đoạn dọc xuống
+  - [0.20, 0.38]   # đoạn ngang dưới
+  - [0.20, 0.62]   # rẽ lên
+  - [0.88, 0.62]   # cuối đường

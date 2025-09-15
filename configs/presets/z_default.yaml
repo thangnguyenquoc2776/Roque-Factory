@@ -1,0 +1,7 @@
+# Z Path
+preset_id: "z_default"
+points:
+  - [0.25, 0.40]   # trên đoạn ngang đầu
+  - [0.55, 0.40]   # ngay khúc rẽ
+  - [0.35, 0.60]   # trên đoạn chéo
+  - [0.80, 0.60]   # cuối đoạn ngang dưới

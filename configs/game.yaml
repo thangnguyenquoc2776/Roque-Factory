@@ -1,0 +1,21 @@
+game:
+  title: "Rogue Factory"
+  resolution: [1280, 720]
+  target_fps: 60
+
+defaults:
+  hp: 10
+  robot_speed: 0.12
+
+language:
+  default: "vi"
+  available: ["vi", "en"]
+
+sprites:
+  OK: 0.075
+  BAD_TRANS: 0.075
+  BAD_LOOP: 0.075
+vfx:
+  BOOM: 0.05
+  BANG: 0.005
+  EFFECT: 3

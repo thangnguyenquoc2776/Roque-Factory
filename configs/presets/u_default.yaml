@@ -1,0 +1,7 @@
+# U Path
+preset_id: "u_default"
+points:
+  - [0.35, 0.55]   # trên đoạn ngang đầu
+  - [0.85, 0.55]   # ngay chỗ rẽ xuống
+  - [0.85, 0.35]   # trên đoạn dọc
+  - [0.20, 0.35]   # cuối đoạn ngang dưới

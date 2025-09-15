@@ -1,0 +1,6 @@
+# S Path
+preset_id: "s_default"
+points:
+  - [0.25, 0.60]   # trên đoạn ngang đầu
+  - [0.55, 0.45]   # ngay giữa khúc cong
+  - [0.70, 0.60]   # trên đoạn ngang cuối
